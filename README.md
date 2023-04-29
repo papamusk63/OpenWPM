@@ -85,7 +85,7 @@ Once installed, it is very easy to run a quick test of OpenWPM. Check out
 `demo.py` for an example. This will use the default setting specified in
 `openwpm/config.py::ManagerParams` and
 `openwpm/config.py::BrowserParams`, with the exception of the changes
-specified in `demo.py`.
+specified in `demo.py`. If you are running it in headless mode, change line 34 in the demo.py file from "native" to "headless"
 
 The demo script also includes a sample of how to use the
 [Tranco](https://tranco-list.eu/) top sites list via the optional command line
